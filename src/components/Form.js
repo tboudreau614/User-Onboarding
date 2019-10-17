@@ -13,6 +13,7 @@ const  NewUser = ({values, errors, touched, status}) => {
         }, [status]);
 
     return(
+
         <div className="newUserForm">
             <Form>
                 <Field type="text" name="name" placeholder="Name" />
